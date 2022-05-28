@@ -1,0 +1,10 @@
+#Sat May 28 21:36:03 ICT 2022
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=D\:\\LUAN_VAN\\user\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
+base.1=D\:\\LUAN_VAN\\user\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+base.0=D\:\\LUAN_VAN\\user\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex

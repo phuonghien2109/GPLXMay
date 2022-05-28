@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "301581574251",
+    "project_id": "admin-5a3e8",
+    "storage_bucket": "admin-5a3e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301581574251:android:668b94d36b97d39121112e",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301581574251-m1mk9g8r148tkq5ol3rk1h6kha586ljm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_application_7",
+            "certificate_hash": "302aba4f3081c2a29b36febde5898c23abe81e44"
+          }
+        },
+        {
+          "client_id": "301581574251-e379dko6fcfjgqvaplrfmj4pdipl2rrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApcjILGjwh21J1-RbUFt-Qxa7PXUW5R2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301581574251-e379dko6fcfjgqvaplrfmj4pdipl2rrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301581574251:android:4303ad67eb681ebf21112e",
+        "android_client_info": {
+          "package_name": "com.example.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301581574251-e379dko6fcfjgqvaplrfmj4pdipl2rrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApcjILGjwh21J1-RbUFt-Qxa7PXUW5R2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301581574251-e379dko6fcfjgqvaplrfmj4pdipl2rrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
