@@ -211,11 +211,12 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   void pushResultScreen(BuildContext context) {
-    _listscore.add(_score);
-    DateTime now = DateTime.now();
+    // DateTime now = DateTime.now();
 
-    String convertedDateTime =
-        "${now.year.toString()}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')} ${now.hour.toString()}-${now.minute.toString()}";
+    // String convertedDateTime =
+    //     "${now.year.toString()}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')} ${now.hour.toString()}-${now.minute.toString()}";
+
+    _listscore.add(_score);
 
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
@@ -230,29 +231,27 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   void nextQuestion() {
-    Future.delayed(const Duration(milliseconds: 200), () {
-      if (_currentIndex == 24) {
-        pushResultScreen(context);
-        return;
+    if (_currentIndex == 24) {
+      pushResultScreen(context);
+      return;
+    }
+
+    random.add(index);
+
+    var _index = Random().nextInt(160);
+
+    for (int i = 0; i < random.length; i++) {
+      while (_index == random[i]) {
+        _index = Random().nextInt(160);
       }
+    }
 
-      random.add(index);
-
-      var _index = Random().nextInt(160);
-
-      for (int i = 0; i < random.length; i++) {
-        while (_index == random[i]) {
-          _index = Random().nextInt(160);
-        }
-      }
-
-      setState(() {
-        index = _index;
-        _currentIndex++;
-        _selectedAnswer = '';
-      });
-      print(index);
+    setState(() {
+      index = _index;
+      _currentIndex++;
+      _selectedAnswer = '';
     });
+    print(index);
   }
 }
 

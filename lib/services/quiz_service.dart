@@ -55,7 +55,7 @@ class QuizService {
 
       userRef.update({'score': currentScore});
 
-      userRef.update({'listScore': listscore});
+      userRef.update({'listscore': listscore});
 
       // userRef.update({'datetime': datetime});
 
@@ -68,7 +68,7 @@ class QuizService {
       'photoUrl': authUser.photoURL,
       'score': currentScore,
       'name': authUser.displayName,
-      'listScore': listscore,
+      'listscore': listscore,
       // 'datetime': datetime,
     });
   }
