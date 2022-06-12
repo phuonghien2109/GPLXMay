@@ -8,7 +8,6 @@ com/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin.java
  com.dexterous.flutterlocalnotifications.FlutterLocalNotificationsPlugin
  com.dexterous.flutterlocalnotifications.FlutterLocalNotificationsPlugin$1
  com.dexterous.flutterlocalnotifications.FlutterLocalNotificationsPlugin$2
- com.dexterous.flutterlocalnotifications.FlutterLocalNotificationsPlugin$3
 com/dexterous/flutterlocalnotifications/models/SoundSource.java
  com.dexterous.flutterlocalnotifications.models.SoundSource
 com/dexterous/flutterlocalnotifications/models/BitmapSource.java

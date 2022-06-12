@@ -5,14 +5,15 @@ INJECTED from D:\LUAN_VAN\user\android\app\src\main\AndroidManifest.xml:1:1-67:1
 INJECTED from D:\LUAN_VAN\user\android\app\src\main\AndroidManifest.xml:1:1-67:12
 INJECTED from D:\LUAN_VAN\user\android\app\src\main\AndroidManifest.xml:1:1-67:12
 MERGED from D:\LUAN_VAN\user\android\app\src\main\AndroidManifest.xml:1:1-67:12
-MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-46:12
-MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:flutter_keyboard_visibility] D:\LUAN_VAN\user\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:google_sign_in] D:\LUAN_VAN\user\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:shared_preferences_android] D:\LUAN_VAN\user\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-46:12
 MERGED from [:url_launcher_android] D:\LUAN_VAN\user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:flutter_keyboard_visibility] D:\LUAN_VAN\user\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-28:12
+MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:shared_preferences_android] D:\LUAN_VAN\user\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\bc497780c1ce60ed2e7015258fc2513f\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\955be42cb0286a736ff6d4ee15b76099\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:17:1-58:12
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f3c873c755e203057b76686840ab40d2\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:15:1-34:12
@@ -21,19 +22,21 @@ MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\lephu\.
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\cb85e813550ceb859d5d8655b705694f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff5e8f7b0a77959153f924b5295ae982\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\516035099b070b06d3b3e10e45c65301\jetified-play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1d87f6fa3b9ca7dba4820929f7068ad0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\afd2d987ef6a954ce95af3f20bd0f6cf\browser-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4e927d6984655c107bd05d46c5b4dbb8\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b501a4de79069b6f0f7e19e89b9b1dda\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\491bbb875d3deba872bb29adb6f841f9\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\516035099b070b06d3b3e10e45c65301\jetified-play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4137babf2606acb1e424ad3914d5b8b3\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f263fcb179e74220f9266564bf6fa6b0\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895548e7b52aa36d663b6a40a867846c\media-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\8f8130da6d680e9184a8ece89d4b58df\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\369c59889e801cc817dee2786a28ea2c\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4137babf2606acb1e424ad3914d5b8b3\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f263fcb179e74220f9266564bf6fa6b0\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c5dc772982f81d32ebb40d7d2857f836\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\642709a288a5d7b607e2a92f2d945178\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
@@ -60,14 +63,14 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\lephu\.gradle\caches\trans
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c5692f6811ef7c87c9b9d941d59ba249\jetified-transport-runtime-3.0.0\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5f302aa8aa4cd11e8ccfdfd58f34bb66\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e5f0c7957424a546e9da21a08a739815\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae5cd4776f4503a44a7812883c5a3277\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff60b25419edc5e682541efdbdc701d8\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae5cd4776f4503a44a7812883c5a3277\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\11efeec140e47cc964c7b51b01cdd88b\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1d4efdb868696ea36efd004abeb8239d\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0341135a479a1847e64dc720fa73a9d9\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\8b0cce3f36a1c28e7df6e72849a13547\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\9dc01f80be5d003ac3d9f81c085f13fd\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\38dc6ad0d9ee8143383008f8d2e90b8f\jetified-threetenabp-1.2.3\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\073fa8f73d9db3fc6f27ad8d002d7cd7\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2be4a00b738a307c9b0b855eef46b421\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 INJECTED from D:\LUAN_VAN\user\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -121,14 +124,16 @@ application
 ADDED from D:\LUAN_VAN\user\android\app\src\main\AndroidManifest.xml:25:4-66:19
 MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-44:19
 MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-44:19
-MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:url_launcher_android] D:\LUAN_VAN\user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
 MERGED from [:url_launcher_android] D:\LUAN_VAN\user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\955be42cb0286a736ff6d4ee15b76099\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\955be42cb0286a736ff6d4ee15b76099\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f3c873c755e203057b76686840ab40d2\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:24:5-32:19
@@ -141,16 +146,16 @@ MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\lephu\.grad
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff5e8f7b0a77959153f924b5295ae982\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:24:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff5e8f7b0a77959153f924b5295ae982\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1d87f6fa3b9ca7dba4820929f7068ad0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1d87f6fa3b9ca7dba4820929f7068ad0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\516035099b070b06d3b3e10e45c65301\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\516035099b070b06d3b3e10e45c65301\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1d87f6fa3b9ca7dba4820929f7068ad0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1d87f6fa3b9ca7dba4820929f7068ad0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f263fcb179e74220f9266564bf6fa6b0\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f263fcb179e74220f9266564bf6fa6b0\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
@@ -169,6 +174,8 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c5692f6811ef7c87c9b9d941d59ba249\jetified-transport-runtime-3.0.0\AndroidManifest.xml:25:5-39:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff60b25419edc5e682541efdbdc701d8\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff60b25419edc5e682541efdbdc701d8\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\38dc6ad0d9ee8143383008f8d2e90b8f\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\38dc6ad0d9ee8143383008f8d2e90b8f\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\8ec5a4192b12a309556d408337153575\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:label
@@ -231,22 +238,24 @@ uses-sdk
 INJECTED from D:\LUAN_VAN\user\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\LUAN_VAN\user\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\LUAN_VAN\user\android\app\src\main\AndroidManifest.xml
-MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_keyboard_visibility] D:\LUAN_VAN\user\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_keyboard_visibility] D:\LUAN_VAN\user\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] D:\LUAN_VAN\user\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] D:\LUAN_VAN\user\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] D:\LUAN_VAN\user\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] D:\LUAN_VAN\user\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_android] D:\LUAN_VAN\user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_android] D:\LUAN_VAN\user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] D:\LUAN_VAN\user\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] D:\LUAN_VAN\user\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] D:\LUAN_VAN\user\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] D:\LUAN_VAN\user\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\bc497780c1ce60ed2e7015258fc2513f\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\bc497780c1ce60ed2e7015258fc2513f\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\955be42cb0286a736ff6d4ee15b76099\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:20:5-44
@@ -263,12 +272,16 @@ MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\lephu\.grad
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff5e8f7b0a77959153f924b5295ae982\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff5e8f7b0a77959153f924b5295ae982\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b298d710992f12b9e2e0e6710dea16b\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\516035099b070b06d3b3e10e45c65301\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\516035099b070b06d3b3e10e45c65301\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1d87f6fa3b9ca7dba4820929f7068ad0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1d87f6fa3b9ca7dba4820929f7068ad0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\afd2d987ef6a954ce95af3f20bd0f6cf\browser-1.0.0\AndroidManifest.xml:20:5-44
@@ -279,16 +292,16 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lephu\.gr
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b501a4de79069b6f0f7e19e89b9b1dda\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\491bbb875d3deba872bb29adb6f841f9\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\491bbb875d3deba872bb29adb6f841f9\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\516035099b070b06d3b3e10e45c65301\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\516035099b070b06d3b3e10e45c65301\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4137babf2606acb1e424ad3914d5b8b3\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4137babf2606acb1e424ad3914d5b8b3\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f263fcb179e74220f9266564bf6fa6b0\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f263fcb179e74220f9266564bf6fa6b0\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895548e7b52aa36d663b6a40a867846c\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895548e7b52aa36d663b6a40a867846c\media-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\8f8130da6d680e9184a8ece89d4b58df\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\8f8130da6d680e9184a8ece89d4b58df\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\369c59889e801cc817dee2786a28ea2c\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\369c59889e801cc817dee2786a28ea2c\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4137babf2606acb1e424ad3914d5b8b3\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4137babf2606acb1e424ad3914d5b8b3\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f263fcb179e74220f9266564bf6fa6b0\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f263fcb179e74220f9266564bf6fa6b0\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c5dc772982f81d32ebb40d7d2857f836\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:5:5-44
@@ -341,10 +354,10 @@ MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\leph
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5f302aa8aa4cd11e8ccfdfd58f34bb66\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e5f0c7957424a546e9da21a08a739815\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e5f0c7957424a546e9da21a08a739815\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae5cd4776f4503a44a7812883c5a3277\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae5cd4776f4503a44a7812883c5a3277\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff60b25419edc5e682541efdbdc701d8\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ff60b25419edc5e682541efdbdc701d8\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae5cd4776f4503a44a7812883c5a3277\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae5cd4776f4503a44a7812883c5a3277\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\11efeec140e47cc964c7b51b01cdd88b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\11efeec140e47cc964c7b51b01cdd88b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1d4efdb868696ea36efd004abeb8239d\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
@@ -355,8 +368,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\lephu\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\8b0cce3f36a1c28e7df6e72849a13547\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\9dc01f80be5d003ac3d9f81c085f13fd\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\9dc01f80be5d003ac3d9f81c085f13fd\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\38dc6ad0d9ee8143383008f8d2e90b8f\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\38dc6ad0d9ee8143383008f8d2e90b8f\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\073fa8f73d9db3fc6f27ad8d002d7cd7\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\073fa8f73d9db3fc6f27ad8d002d7cd7\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2be4a00b738a307c9b0b855eef46b421\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -371,10 +384,10 @@ INJECTED from D:\LUAN_VAN\user\android\app\src\debug\AndroidManifest.xml
 		INJECTED from D:\LUAN_VAN\user\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from D:\LUAN_VAN\user\android\app\src\debug\AndroidManifest.xml:6:5-66
-MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
-MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
 MERGED from [:google_sign_in] D:\LUAN_VAN\user\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
 MERGED from [:google_sign_in] D:\LUAN_VAN\user\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d505102d802196baf48f57dd07927d29\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d505102d802196baf48f57dd07927d29\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\cb85e813550ceb859d5d8655b705694f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
@@ -407,12 +420,12 @@ MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\lephu\.grad
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c5dc772982f81d32ebb40d7d2857f836\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c5dc772982f81d32ebb40d7d2857f836\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c5692f6811ef7c87c9b9d941d59ba249\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c5692f6811ef7c87c9b9d941d59ba249\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
-MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\adf0ad4e5cb0b2226216b1b3470356be\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-76
 service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
@@ -451,10 +464,10 @@ ADDED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\inter
 		ADDED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-37:19
-MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\955be42cb0286a736ff6d4ee15b76099\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
@@ -493,24 +506,6 @@ ADDED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\inter
 		ADDED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-35
 	android:name
 		ADDED from [:firebase_messaging] D:\LUAN_VAN\user\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-102
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 activity#io.flutter.plugins.urllauncher.WebViewActivity
 ADDED from [:url_launcher_android] D:\LUAN_VAN\user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
 	android:exported
@@ -519,6 +514,70 @@ ADDED from [:url_launcher_android] D:\LUAN_VAN\user\build\url_launcher_android\i
 		ADDED from [:url_launcher_android] D:\LUAN_VAN\user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
 	android:name
 		ADDED from [:url_launcher_android] D:\LUAN_VAN\user\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] D:\LUAN_VAN\user\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] D:\LUAN_VAN\user\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] D:\LUAN_VAN\user\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] D:\LUAN_VAN\user\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\955be42cb0286a736ff6d4ee15b76099\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c5dc772982f81d32ebb40d7d2857f836\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:11:5-82

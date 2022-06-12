@@ -25,6 +25,10 @@ class QuizProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> updateNoti(String title, String body) async {
+    await QuizService.updateNoti(title, body);
+  }
+
   Future<void> updateHighscore(int currentScore, List<int> listscore) async {
     await QuizService.updateHighscore(currentScore, listscore);
   }

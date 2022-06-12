@@ -32,7 +32,31 @@ class QuizService {
         .toList();
   }
 
-  static Future<void> updateHighscore(int currentScore, List<int> listscore) async {
+  static Future<void> updateNoti(String title, String body) async {
+    final userRef = FirebaseFirestore.instance.collection('Noti');
+
+    // final userDoc = await userRef.get();
+
+    // if (userDoc.exists) {
+    //   final user = userDoc.data();
+
+    //   if (user == null) return;
+
+    //   userRef.update({'title': title});
+
+    //   userRef.update({'body': body});
+
+    //   return;
+    // }
+
+    userRef.add({
+      'title': title,
+      'body': body,
+    });
+  }
+
+  static Future<void> updateHighscore(
+      int currentScore, List<int> listscore) async {
     final authUser = FirebaseAuth.instance.currentUser;
 
     if (authUser == null) return;
@@ -60,16 +84,17 @@ class QuizService {
       // userRef.update({'datetime': datetime});
 
       return;
-
     }
 
-    userRef.set({
-      'email': authUser.email,
-      'photoUrl': authUser.photoURL,
-      'score': currentScore,
-      'name': authUser.displayName,
-      'listscore': listscore,
-      // 'datetime': datetime,
-    });
+    userRef.set(
+      {
+        'email': authUser.email,
+        'photoUrl': authUser.photoURL,
+        'score': currentScore,
+        'name': authUser.displayName,
+        'listscore': listscore,
+        // 'datetime': datetime,
+      },
+    );
   }
 }

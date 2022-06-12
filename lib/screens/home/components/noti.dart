@@ -1,8 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:overlay_support/overlay_support.dart';
+import 'package:provider/provider.dart';
 import 'package:user/helpers/constants.dart';
+import 'package:user/providers/quiz_provider.dart';
 
 class Noti extends StatefulWidget {
   const Noti({Key? key}) : super(key: key);
@@ -20,14 +21,6 @@ class _NotiState extends State<Noti> {
         title: message.notification?.title,
         body: message.notification?.body,
       );
-
-      if (_notificationInfo != null) {
-        showSimpleNotification(
-          Text(_notificationInfo!.title!),
-          subtitle: Text(_notificationInfo!.body!, style: const TextStyle(color: Colors.black),),
-          background: Colors.white,
-        );
-      }
 
       setState(() {
         _notificationInfo = notification;
@@ -51,6 +44,9 @@ class _NotiState extends State<Noti> {
       );
       setState(() {
         _notificationInfo = notification;
+        final provider = context.read<QuizProvider>();
+        provider.updateNoti(
+            _notificationInfo!.title!, _notificationInfo!.body!);
       });
     }
   }
@@ -125,7 +121,7 @@ class _NotiState extends State<Noti> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  '${_notificationInfo!.dataTitle ?? _notificationInfo!.title}',
+                                  '${_notificationInfo!.title}',
                                   style: const TextStyle(
                                     fontWeight: FontWeight.bold,
                                     fontSize: 16.0,
@@ -133,7 +129,7 @@ class _NotiState extends State<Noti> {
                                 ),
                                 const SizedBox(height: 8.0),
                                 Text(
-                                  '${_notificationInfo!.dataBody ?? _notificationInfo!.body}',
+                                  '${_notificationInfo!.body}',
                                   style: const TextStyle(
                                     fontSize: 16.0,
                                   ),
@@ -143,7 +139,9 @@ class _NotiState extends State<Noti> {
                           ),
                         ],
                       )
-                    : Container(),
+                    : const Center(
+                        child: Text('Hiện chưa có thông báo nào'),
+                      ),
               ],
             ),
           ),
@@ -157,14 +155,10 @@ class PushNotification {
   PushNotification({
     this.title,
     this.body,
-    this.dataTitle,
-    this.dataBody,
   });
 
   String? title;
   String? body;
-  String? dataTitle;
-  String? dataBody;
 }
 
 Future _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
