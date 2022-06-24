@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:user/helpers/constants.dart';
 import 'package:user/screens/Information.dart';
+import 'package:user/screens/auth/sign_in.dart';
 import 'package:user/screens/huongdansd.dart';
 import 'package:user/services/auth_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Setting extends StatelessWidget {
   const Setting({Key? key}) : super(key: key);
+
+  static const routeName = './login';
 
   @override
   Widget build(BuildContext context) {
@@ -67,7 +70,7 @@ class Setting extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.only(right: 16, top: 16, bottom: 5),
                     alignment: Alignment.center,
-                    width: MediaQuery.of(context).size.width - 48,
+                    // width: MediaQuery.of(context).size.width - 48,
                     child: Row(
                       children: const [
                         Icon(Icons.menu_book_rounded),
@@ -107,7 +110,7 @@ class Setting extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.only(right: 16, top: 16),
                     alignment: Alignment.center,
-                    width: MediaQuery.of(context).size.width - 48,
+                    // width: MediaQuery.of(context).size.width - 48,
                     child: Row(
                       children: const [
                         Icon(Icons.info_outline),
@@ -154,7 +157,6 @@ class Setting extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    // authService.signOut();
                     AuthService.signOutWithGoogle();
                   },
                   child: Container(

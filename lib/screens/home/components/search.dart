@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:user/helpers/constants.dart';
 import 'package:user/models/question.dart';
 import 'package:user/providers/quiz_provider.dart';
+import 'package:user/screens/home/components/question_search.dart';
 
 class Search extends StatefulWidget {
   const Search({Key? key}) : super(key: key);
@@ -47,25 +48,7 @@ class _SearchState extends State<Search> {
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // const Text(
-                //   'Tìm kiếm câu hỏi',
-                //   style: TextStyle(
-                //       fontSize: 20,
-                //       fontWeight: FontWeight.w500,
-                //       color: kBackgroundColor),
-                // ),
-                // Container(
-                //   margin: const EdgeInsets.only(top: 10, right: 20, bottom: 20),
-                //   decoration: const BoxDecoration(
-                //     border: Border(
-                //       bottom: BorderSide(
-                //         color: kBackgroundColor,
-                //         width: 1.0,
-                //       ),
-                //     ),
-                //   ),
-                // ),
-                TypeAheadField<User>(
+                TypeAheadField<Question>(
                   textFieldConfiguration: TextFieldConfiguration(
                     decoration: const InputDecoration(
                         prefixIcon: Icon(
@@ -77,14 +60,10 @@ class _SearchState extends State<Search> {
                     controller: controller,
                   ),
                   suggestionsCallback: UserData.getSuggestions,
-                  itemBuilder: (context, User suggestion) {
+                  itemBuilder: (context, Question suggestion) {
                     final user = suggestion;
                     return ListTile(
-                      title: Text(user.name),
-                      subtitle: Text(
-                        user.subtitle,
-                        maxLines: 1,
-                      ),
+                      title: Text(user.question),
                     );
                   },
                   noItemsFoundBuilder: (context) => SizedBox(
@@ -97,11 +76,30 @@ class _SearchState extends State<Search> {
                       ),
                     ),
                   ),
-                  onSuggestionSelected: (User suggestion) {
+                  onSuggestionSelected: (Question suggestion) {
                     setState(() {
                       final user = suggestion;
-                      controller.text = user.name;
+                      controller.text = user.question;
                       MainNoti(user: user);
+                      showDialog(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return Dialog(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(
+                                      20.0)), //this right here
+                              child: Container(
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20)),
+                                height:
+                                    MediaQuery.of(context).size.height * 0.9,
+                                width: MediaQuery.of(context).size.width * 0.8,
+                                child: QuestionSearch(
+                                  question: user,
+                                ),
+                              ),
+                            );
+                          });
                     });
                   },
                 ),
@@ -115,7 +113,7 @@ class _SearchState extends State<Search> {
 }
 
 class MainNoti extends ChangeNotifier {
-  final User user;
+  final Question user;
 
   MainNoti({
     required this.user,
@@ -125,23 +123,23 @@ class MainNoti extends ChangeNotifier {
   notifyListeners();
 }
 
-class User {
-  final String name;
-  final String subtitle;
-
-  const User({required this.name, required this.subtitle});
-}
-
 class UserData {
-  static final List<User> users = List.generate(
+  static final List<Question> users = List.generate(
     6,
-    (index) => User(
-        name: _questions[index].question, subtitle: _questions[index].explain),
+    (index) => Question(
+      question: _questions[index].question,
+      answers: _questions[index].answers,
+      explain: _questions[index].explain,
+      correctAnswer: _questions[index].correctAnswer,
+      id: _questions[index].id,
+      image: _questions[index].image,
+      state: _questions[index].state,
+    ),
   );
 
-  static List<User> getSuggestions(String query) =>
+  static List<Question> getSuggestions(String query) =>
       List.of(users).where((user) {
-        final userLower = user.name.toLowerCase();
+        final userLower = user.question.toLowerCase();
         final queryLower = query.toLowerCase();
 
         return userLower.contains(queryLower);

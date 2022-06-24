@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:user/helpers/constants.dart';
 import 'package:user/screens/home/components/home.dart';
-import 'package:user/screens/home/components/noti.dart';
+import 'package:user/screens/home/components/ranking.dart';
+// import 'package:user/screens/home/components/noti.dart';
 import 'package:user/screens/home/components/search.dart';
 import 'package:user/screens/home/components/setting.dart';
 
@@ -16,7 +17,7 @@ class _MyHomePageState extends State<HomePage> {
   int selectedIndex = 0;
   final _home = const Home();
   final _search = const Search();
-  final _noti = const Noti();
+  final _noti = const RankingScreen();
   final _setting = const Setting();
 
   void onTapHandler(int index) {
@@ -30,9 +31,11 @@ class _MyHomePageState extends State<HomePage> {
       return _home;
     } else if (selectedIndex == 1) {
       return _search;
-    } else if (selectedIndex == 2) {
+    } 
+    else if (selectedIndex == 2) {
       return _noti;
-    } else {
+    } 
+    else {
       return _setting;
     }
   }
@@ -78,9 +81,9 @@ class _MyHomePageState extends State<HomePage> {
               BottomNavigationBarItem(
                 backgroundColor: Colors.transparent,
                 icon: Icon(
-                  Icons.notifications,
+                  Icons.align_vertical_bottom,
                 ),
-                title: Text('Thông báo', style: TextStyle(color: Colors.white)),
+                title: Text('Xếp Hạng', style: TextStyle(color: Colors.white)),
               ),
               BottomNavigationBarItem(
                 backgroundColor: Colors.transparent,
