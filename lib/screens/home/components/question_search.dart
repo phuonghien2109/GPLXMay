@@ -16,6 +16,7 @@ class _QuestionSearchState extends State<QuestionSearch> {
   Widget build(BuildContext context) {
     final _question = widget.question;
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
           'Câu hỏi: ${_question.question}',

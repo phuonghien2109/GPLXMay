@@ -79,7 +79,7 @@ class _SearchState extends State<Search> {
                   onSuggestionSelected: (Question suggestion) {
                     setState(() {
                       final user = suggestion;
-                      controller.text = user.question;
+                      // controller.text = user.question;
                       MainNoti(user: user);
                       showDialog(
                           context: context,
@@ -87,16 +87,21 @@ class _SearchState extends State<Search> {
                             return Dialog(
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(
-                                      20.0)), //this right here
-                              child: Container(
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20)),
-                                height:
-                                    MediaQuery.of(context).size.height * 0.9,
-                                width: MediaQuery.of(context).size.width * 0.8,
-                                child: QuestionSearch(
-                                  question: user,
-                                ),
+                                      20.0)),
+                              child: Column(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Container(
+                                    padding: const EdgeInsets.all(20),
+                                    decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(20)),
+                                    // height:
+                                        // MediaQuery.of(context).size.height * 0.5,
+                                    child: QuestionSearch(
+                                      question: user,
+                                    ),
+                                  ),
+                                ],
                               ),
                             );
                           });

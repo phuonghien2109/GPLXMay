@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:user/helpers/constants.dart';
 import 'package:user/models/question.dart';
@@ -95,7 +96,7 @@ class _QuizScreenState extends State<QuizScreen> {
               ),
               Container(
                 padding: const EdgeInsets.all(20),
-                height: MediaQuery.of(context).size.height - 120,
+                height: MediaQuery.of(context).size.height - 170,
                 decoration: const BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
@@ -148,11 +149,12 @@ class _QuizScreenState extends State<QuizScreen> {
                       height: 10,
                     ),
                     if (currentQuestion.image != '')
-                      Center(
-                        child: Image(
-                          image: NetworkImage(currentQuestion.image),
-                          height: 200,
-                        ),
+                      CachedNetworkImage(
+                        height: 200,
+                        imageUrl: currentQuestion.image,
+                        maxHeightDiskCache: 100,
+                        placeholder: (context, url) =>
+                            const CircularProgressIndicator(),
                       ),
                     const SizedBox(
                       height: 10,
@@ -172,36 +174,71 @@ class _QuizScreenState extends State<QuizScreen> {
                             );
                           },
                         ),
-                    Container(
-                      alignment: Alignment.topRight,
-                      child: TextButton(
-                        onPressed: () {
-                          if (_selectedAnswer ==
-                              currentQuestion.correctAnswer) {
-                            _score++;
-                          }
-                          if (currentQuestion.state == true &&
-                              _selectedAnswer !=
-                                  currentQuestion.correctAnswer) {
-                            pushResultScreen(context);
-                          } else {
-                            nextQuestion();
-                          }
-                        },
-                        child: Container(
-                            padding: const EdgeInsets.fromLTRB(30, 12, 30, 12),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(12),
-                              color: const Color(0xFF11969f),
-                            ),
-                            child: const Text(
-                              'Câu hỏi tiếp theo',
-                              style: TextStyle(color: Colors.white),
-                            )),
-                      ),
-                    ),
                   ],
                 ),
+              ),
+              Row(
+                children: [
+                  if (currentQuestion.explain.isNotEmpty)
+                    TextButton(
+                        onPressed: () {
+                          showDialog(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return Dialog(
+                                  shape: RoundedRectangleBorder(
+                                      borderRadius:
+                                          BorderRadius.circular(20.0)),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      Container(
+                                        padding: const EdgeInsets.all(20),
+                                        decoration: BoxDecoration(
+                                            borderRadius:
+                                                BorderRadius.circular(20)),
+                                        child: Text(
+                                          "Giải thích: ${currentQuestion.explain}",
+                                          style: const TextStyle(fontSize: 16),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                );
+                              });
+                        },
+                        child: const Text(
+                          'Giải thích',
+                          style: TextStyle(color: Colors.white),
+                        )),
+                  const Spacer(),
+                  Container(
+                    alignment: Alignment.topRight,
+                    child: TextButton(
+                      onPressed: () {
+                        if (_selectedAnswer == currentQuestion.correctAnswer) {
+                          _score++;
+                        }
+                        if (currentQuestion.state == true &&
+                            _selectedAnswer != currentQuestion.correctAnswer) {
+                          pushResultScreen(context);
+                        } else {
+                          nextQuestion();
+                        }
+                      },
+                      child: Container(
+                          padding: const EdgeInsets.fromLTRB(30, 12, 30, 12),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: const Color(0xFF11969f),
+                          ),
+                          child: const Text(
+                            'Câu hỏi tiếp theo',
+                            style: TextStyle(color: Colors.white),
+                          )),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
