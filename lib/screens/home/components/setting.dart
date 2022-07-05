@@ -68,7 +68,8 @@ class Setting extends StatelessWidget {
                     );
                   },
                   child: Container(
-                    padding: const EdgeInsets.only(right: 16, top: 16, bottom: 5),
+                    padding:
+                        const EdgeInsets.only(right: 16, top: 16, bottom: 5),
                     alignment: Alignment.center,
                     // width: MediaQuery.of(context).size.width - 48,
                     child: Row(
@@ -129,7 +130,7 @@ class Setting extends StatelessWidget {
                 ),
                 const Spacer(),
                 GestureDetector(
-                  onTap: () => launch('tel://18001976'),
+                  onTap: () => launch('tel://0961508150'),
                   child: Container(
                     decoration: BoxDecoration(
                         border: Border.all(color: kColor, width: 2),
@@ -145,7 +146,7 @@ class Setting extends StatelessWidget {
                           width: 10,
                         ),
                         Text(
-                          'Hotline hỗ trợ: 18001976',
+                          'Hotline hỗ trợ: 0961508150',
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],

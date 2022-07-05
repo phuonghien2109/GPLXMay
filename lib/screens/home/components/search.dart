@@ -79,24 +79,24 @@ class _SearchState extends State<Search> {
                   onSuggestionSelected: (Question suggestion) {
                     setState(() {
                       final user = suggestion;
-                      // controller.text = user.question;
+                      controller.text = '';
                       MainNoti(user: user);
                       showDialog(
                           context: context,
                           builder: (BuildContext context) {
                             return Dialog(
                               shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(
-                                      20.0)),
+                                  borderRadius: BorderRadius.circular(20.0)),
                               child: Column(
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Container(
                                     padding: const EdgeInsets.all(20),
                                     decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(20)),
+                                        borderRadius:
+                                            BorderRadius.circular(20)),
                                     // height:
-                                        // MediaQuery.of(context).size.height * 0.5,
+                                    // MediaQuery.of(context).size.height * 0.5,
                                     child: QuestionSearch(
                                       question: user,
                                     ),

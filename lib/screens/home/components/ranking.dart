@@ -62,13 +62,7 @@ class _RankingScreenState extends State<RankingScreen> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(15, 0, 10, 0),
                   child: Row(
-                    children: const[
-                      Text(
-                        'Tên'
-                      ),
-                      Spacer(),
-                      Text('Điểm')
-                    ],
+                    children: const [Text('Tên'), Spacer(), Text('Điểm')],
                   ),
                 ),
                 if (provider.users.isEmpty)
